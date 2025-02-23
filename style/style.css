@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d1117;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  font-family: "Noto Sans", serif;
+}
+form label {
+  color: #f0f6fc;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+form input {
+  height: 55px;
+  padding: 5px;
+  font-family: "Noto Sans", serif;
+  font-size: 25px;
+  border-radius: 7px;
+  border: none;
+}
+
+.info-box {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+.info-box .avatar-block {
+  width: 350px;
+  height: 350px;
+}
+.info-box .avatar-block img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.info-box .text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+  font-size: 40px;
+  font-family: "Noto Sans", serif;
+}
+.info-box .text-block a {
+  color: #3b93f8;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.info-box .text-block a:hover {
+  text-decoration: underline;
+}
+.info-box .text-block p {
+  color: #f0f6fc;
+}
+.info-box .text-block p span {
+  font-weight: 700;
+}
+.info-box .error-message {
+  color: #f0f6fc;
+  font-size: 40px;
+}/*# sourceMappingURL=style.css.map */
